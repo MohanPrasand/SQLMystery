@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin:0;
+    font-size: 1.2rem;
+    font-family: "Source Code Pro",monospace;
+    transition: 0.5s;
+    transform-origin: left top;
+}
+
+body{
+    width:100vw;
+    overflow-x: hidden;
+    background: #FFDAB9;
+}
+
+#intro{
+    position: absolute;
+    height:100%;
+    width:100%;
+    background: rgb(105, 142, 252);
+    z-index:9999;
+}
+
+#login{
+    position: absolute;
+    top: 0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background: green;
+}
+
+#instructionC{
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background: linear-gradient(to bottom right, rgb(250, 72, 72),rgb(248, 119, 119));
+}
+
+#instruction{
+    width:55%;
+    position: relative;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top:50%;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(250, 222, 39),rgb(250, 199, 32));
+    box-shadow: 2px 2px black;
+}
+
+
+
+
+
+#code{
+    position: relative;
+    width:95vw;
+    height:40vh;
+    display: flex;
+    justify-content:space-evenly;
+    transform: translateX(4vw);
+}
+
+.inputs{
+    height:95%;
+    width:48%;
+    resize: none;
+    border: solid 1px black;
+    font-family: "M PLUS 1 Code",monospace;
+    
+}
+
+#output{
+    width:93vw;
+    height:50vh;
+    transform: translateX(5vw);
+    overflow-y: scroll;
+}
+
+#run{
+    cursor: pointer;
+    transform: translateX(5vw);
+
+}
+
+table{
+    width: 100%;
+}
+
+#tabletop{
+    position: sticky;
+    top:0;
+    width: 100%;
+
+}
+
+#tabhead{
+    border: solid 1px black;
+    background: gray;
+    color: white;
+}
+
+td{
+    border: solid 1px black;
+    text-align: center;
+    background: #FFFFE0;
+}
