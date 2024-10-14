@@ -52,7 +52,7 @@ runb.addEventListener('click',()=>{
         }
     })
 })
-
+/*
 document.getElementById('instructionC').addEventListener('click',()=>{
     document.getElementById('instructionC').style.scale=0;
 })
@@ -60,3 +60,4 @@ document.getElementById('instructionC').addEventListener('click',()=>{
 function showInstr(){
     document.getElementById('instructionC').style.scale=1;
 }
+*/
