@@ -34,7 +34,7 @@ function constructTable(data){
 runb.addEventListener('click',()=>{
     $.ajax({
         url:'test.php',
-        type:'POST',
+        type:'GET',
         data: {stat:query.value},
         datatype: 'json',
         success: (ret)=>{
