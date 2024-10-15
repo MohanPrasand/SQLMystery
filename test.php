@@ -8,5 +8,5 @@ $ret=array();
 while($data=$result->fetch_assoc()){
     $ret[]=$data;
 }
-echo ($ret);
+echo json_encode($ret);
 ?>
